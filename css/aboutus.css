@@ -1,0 +1,27 @@
+/* VARIABLES */
+
+:root{
+    --colorGuyzo: red;
+    --colorBody: #fff;
+    --secondColorBody:#000;
+    --firstOrange: #f38730;
+    --secondOrange:#fecc77;
+    --thirdOrange: #ffe097;
+    --colorcard:#f6f4f5;
+    --secondColorCard: #5f6368;
+    --colorFirstActuality: #E5E0E0;
+    --colorSecondActuality:#5E585B;
+    --bodySize: 16px;
+    --weightBody: bold;
+    --fontBody: 'OFL'
+    
+}
+
+
+/* PAGE OBJECTIFS */
+
+
+#page-objectifs{
+    height: 100vh;
+    background-color: var(--colorGuyzo);
+}

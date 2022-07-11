@@ -1,0 +1,396 @@
+/* VARIABLES */
+
+:root{
+    --colorGuyzo: red;
+    --colorBody: #fff;
+    --secondColorBody:#000;
+    --firstOrange: #f38730;
+    --secondOrange:#fecc77;
+    --thirdOrange: #ffe097;
+    --colorcard:#f6f4f5;
+    --secondColorCard: #5f6368;
+    --colorFirstActuality: #E5E0E0;
+    --colorSecondActuality:#5E585B;
+    --bodySize: 16px;
+    --weightBody: bold;
+    --fontBody: 'OFL'
+    
+}
+
+
+/* GENERAL */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.test{
+    border: 1px solid red;
+}
+
+body, html{
+    scroll-behavior: smooth;
+}
+
+
+/* HEADER */
+
+.nav-link{
+    color: var(--colorBody) !important;
+}
+
+.bg-purple{
+    background-color: var(--secondOrange) !important;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+}
+
+.navbar-nocolor{
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.logo{
+    height: 50px;      
+}
+
+.logo-name{
+    color: var(--firstOrange);
+    font-weight: var(--weightBody);
+    font-size: 1.2rem;
+}
+
+.text-white{
+    color: var(--colorBody);
+}
+
+.text-copy{
+    color: var(--secondOrange);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+
+.slide1,.slide2,.slide3{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1{
+    background-image: url("../images/pexels-flo-maderebner-745988.jpg");
+}
+
+.slide2{
+    background-image:  url("../images/pexels-pixabay-2135.jpg");
+}
+
+.slide3{
+    background-image: url("../images/pexels-vaibhav-jadhav-3218467.jpg");
+}
+
+.continuous{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+.bt1{
+    padding: .5rem 2rem;
+    border: 0;
+    border-radius: 2rem;
+    width: auto;
+    background-color: var(--firstOrange);
+    color: var(--colorBody);
+    font-weight: bold;
+    transition: 2s;
+}
+
+.bt1:hover{
+    background-color: var(--colorBody);
+    color: var(--firstOrange);
+    transition: 2s;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.bt1 a{
+    color: inherit;
+}
+
+
+/* ORIENTATIONS and FORMATIONS and QUALITES and COMMUNIQUES ans ECONOMIES and REGLEMENTS*/
+
+
+#orientations,
+#formations,
+#qualites,
+#communiques,
+#economies,
+#reglements
+{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+
+#orientationsh3,
+#formations h3,
+#qualites h3,
+#communiques h3,
+#economies h3,
+#reglements h3
+{
+    font-weight: bold;
+}
+
+#formations .card2{
+    background-color: var(--firstOrange);
+    color: var(--colorBody);
+    font-weight: bold;
+}
+
+#orientations a,
+#formations a,
+#qualites a,
+#communiques a,
+#economies a,
+#reglements a
+{
+    color: inherit;
+}
+
+.text-orientations,
+.text-qualites,
+.text-economies
+{
+    border-radius: .5rem;
+    box-shadow: 0 10px 30px -10px rgba(12, 9, 7, 0.3), 0 3px 10px -10px rgba(12, 9, 7, 0.2);
+    height: 100%;
+    background-color: var(--secondOrange);
+}
+
+.text-formations,
+.text-communiques,
+.text-reglements
+{
+    border-radius: .5rem;
+    box-shadow: 0 10px 30px -10px rgba(12, 9, 7, 0.3), 0 3px 10px -10px rgba(12, 9, 7, 0.2);
+    height: 100%;
+    background-color: var(--colorBody);
+}
+
+.images-orientations,
+.images-formations,
+.images-qualites,
+.images-communiques,
+.images-economies,
+.images-reglements
+{
+    border-radius: .5rem;
+    height: auto;
+    width: 100%;
+}
+
+
+/* OBJECTIFS */
+
+
+#objectifs{
+    height: 50vh;
+    width: 100%;
+    background-image: url("../images/pexels-flo-maderebner-745988.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 2rem 0 5rem;
+}
+
+.objectifs h3{
+    font-weight: bold;
+    color: var(--secondOrange);
+}
+
+
+.objectifs p{
+    color: var(--colorBody);
+    font-weight: bold;
+    width: 18rem;
+    height: auto;
+}
+
+.objectifs li{
+    color: var(--colorBody);
+}
+
+.bt2 a{
+    color: inherit;
+    transition: 2s;
+}
+
+.bt2 a:hover{
+    transition: 2s;
+}
+
+
+/* ACTUALITY and EVENTS */
+
+
+#actuality,
+#events{
+    margin: 1rem;
+    height: 100%;
+}
+
+#actuality h2,
+#events h2{
+    border-bottom: 1px solid var(--colorFirstActuality);
+    color: var(--colorSecondActuality);
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-right: 8%;
+    margin-Left: 8%;
+    padding-bottom: 5px;
+    font-size: 200%;
+}
+
+
+#events h2{
+    font-size: x-large;
+}
+
+.link-actu,
+.link-actu:hover{
+    float: right;
+    color: inherit;
+    font-size: 1rem;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+.card2{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+.card2:hover{
+    transform: scale(1.01);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    transition: .5s;
+}
+
+.images-card2{
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+
+.copy{
+    text-align: left;
+}
+
+
+.reseaux-sociaux{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1rem;
+}
+
+
+/* PARTENAIRES and ASSOCIATIONS */
+
+
+#partenaires,
+#associations{
+    height: 100%;
+    background-color: var(--colorBody);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 2rem 0 5rem;
+    padding-bottom: 1rem;
+}
+
+.partenaires,
+.associations{
+    font-size: 2rem;
+    color: var(--secondOrange);
+}
+
+.alignement{
+    padding-bottom: 1rem;
+}
+
+.text-card2{
+    background-color: var(--colorBody);
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.filtre:hover{
+    filter: grayscale(.9);
+}
+
+.text-card2 p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--firstOrange);
+    text-transform: capitalize;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--secondOrange);
+    color: var(--secondColorBody);
+}
+
+footer a,
+footer a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.fb-icon,
+.tw-icon,
+.gplus-icon,
+.ins-icon
+{
+    width: 20px;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:500px){
+    .presentations{
+        display: block;
+    }
+}

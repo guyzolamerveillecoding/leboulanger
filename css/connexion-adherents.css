@@ -1,0 +1,120 @@
+/* VARIABLES */
+
+:root{
+    --colorBody: #fff;
+    --secondColorBody:#000;
+    --firstOrange: #f38730;
+    --secondOrange:#fecc77;
+    --thirdOrange: #ffe097;
+    --colorcard:#f6f4f5;
+    --secondColorCard: #5f6368;
+    --colorFirstActuality: #E5E0E0;
+    --colorSecondActuality:#5E585B;
+    --bodySize: 16px;
+    --weightBody: bold;
+    --fontBody: 'OFL'
+    
+}
+
+
+/* Pages Connexion Adhérents */
+
+body{
+    /* background-color: var(--firstOrange); */
+    background-image: url("../images/pexels-vaibhav-jadhav-3218467.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* grande boîte */
+
+#adherents{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login {   
+    padding: 18px;
+    max-width: 30rem;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+}
+
+/* entête du formulaire */
+.card-header {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600 !important;
+    margin-top: 10px;
+    border-bottom: none;
+    background-color: transparent !important;
+}
+
+.logo_title{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: var(--secondOrange);
+}
+
+/* coprs du formulaire */
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: var(--secondOrange);
+    color: #fff;
+    border:none !important;
+}
+
+input{
+    border:1px solid var(--secondOrange) !important;
+}
+
+input:focus{
+    border: 2px solid var(--firstOrange) !important;
+    outline: none  !important;
+    box-shadow: none !important;
+}
+
+.form-control {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid var(--secondOrange) !important;
+    border-radius: .25rem;
+}
+
+.input-group-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: .25rem;
+}
+
+/* boutton */
+
+.login_btn{
+    width: 130px;
+    background-color: var(--secondOrange) !important; 
+    border-color: transparent !important;
+    transition: 2s;
+}
+
+.login_btn:hover{
+    color: #fff;
+    background-color: var(--firstOrange) !important;
+    border-color: transparent;
+    transition: 2s;
+}
+
+.btn-outline-danger {
+    color: #fff;
+    font-size: 18px;
+    background-image: none;
+}
+

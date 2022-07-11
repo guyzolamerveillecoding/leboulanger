@@ -1,0 +1,47 @@
+/* Page Events */
+
+#page-events{
+    height: auto;
+    margin: 1rem;
+}
+
+#page-events h1{
+    color: var(--secondOrange);
+    margin: 50px auto 20px;
+    padding-bottom: 5px;
+}
+
+
+.card3{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 30px -10px rgba(12, 9, 7, 0.3), 0 3px 10px -10px rgba(12, 9, 7, 0.2);
+}
+
+
+.text-page-events h3{
+    text-transform: capitalize;
+    font-size: x-large;
+    color: var(--colorSecondActuality);
+    margin: .8rem;
+}
+
+
+.text-page-events p{
+    font-size: 1rem;
+    color: var(--secondColorCard);
+    text-align: left;
+    margin: .8rem;
+}
+
+
+.images-events{
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
